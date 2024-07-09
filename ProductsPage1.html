@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page | Tech-Nest</title>
+    <link  rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/logo.png" width="150px"></a>
+                </div>
+                <nav>
+                <ul id="menuitems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+                </nav>
+                <a href="cart.html"><img src="assets/cart.png" width="30px" height="30px" style="
+                    position: relative; top: 10px;"></a>
+                <img  src="assets/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+
+
+        <div class="small-container">
+
+            <div class="row row-2" >
+                <h2>All Products</h2>
+                <select>
+                    <option>Default Sorting</option>
+                    <option>sort by price</option>
+                    <option>sort by popularity</option>
+                    <option>Sort by rating</option>
+                </select>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <a href="productdetail5.html"><img src="assets/Product1.jpeg"></a>
+                    <a href="productdetail5.html"><h4>CMF Watch 1</h4></a>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>2499.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/Product2.png">
+                    <h4>Nothing Phone 2</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p>37999.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/Product3.png">
+                    <h4>Motorola Edge 50 Pro</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>23999.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="assets/Product4.png">
+                    <h4>Nothing Buds 2</h4>
+                    <div class="rating">
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o" ></i>
+                    </div>
+                    <p>5999.00</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <img src="assets/product5.png">
+                        <h4>JBL Tune 660 NC</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o" ></i>
+    
+                        </div>
+                        <p>6999.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/product6.png">
+                        <h4>HP Omen Intel i7</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>157945.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/product7.png">
+                        <h4>GO Pro Hero 12</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>38990.00</p>
+                    </div>
+                    <div class="col-4">
+                        <a href="Productdetail.html"><img src="assets/product8.png"></a>
+                        <a href="Productdetail.html"><h4>Realme P1 Pro</h4></a>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>20999.00</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="assets/product9.png">
+                        <h4>Portronics SoundDrum</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>1599.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/product10.png">
+                        <h4>Motorola Envision X</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>12500.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/product11.png">
+                        <h4>Realme Buds Air 6</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>3299.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="assets/product12.png">
+                        <h4>MI Backpack</h4>
+                        <div class="rating">
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star" ></i>
+                            <i class="fa fa-star-o" ></i>
+                        </div>
+                        <p>799.00</p>
+                    </div>
+                </div>
+                <div class="page-btn">
+                    <span style="
+                    background-color: #ff523b;
+                    color: white;">1</span>
+                    <a href="ProductPage2.html"><span>2</span></a>
+                    <a href="ProductPage3.html"><span>3</span></a>
+                    <a href="ProductPage4.html"><span>4</span></a>
+                    <span>&#8594</span>
+                </div>
+            </div>
+            </div>
+        <!--------------footer-------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3 style="margin-left: 25px;">Download Our App</h3>
+                        <p>Download App for Android and ios mobile phone</p>
+                        <div class="applogo">
+                            <img src="assets/play-store.png">
+                            <img src="assets/app-store.png">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="assets/Logo-White.png">
+                        <p>
+                            Our purpose is to make the new and advanced
+                            innovation of technology accessible to many.
+                        </p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Youtube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="Copyright" style="text-align: center;"> &#169; Copyright 2024</p>
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+</body>
+</html> 
